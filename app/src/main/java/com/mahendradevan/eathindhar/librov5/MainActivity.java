@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.firebase.client.DataSnapshot;
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     EditText logtext, passtext;
     String uname, pass;
     Button logbtn;
-    ImageButton regbtn;
+    TextView regbtn;
     String Base_url="https://libro-ee6be.firebaseio.com/";
     Firebase fbdb;
     @Override
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         logtext = (EditText)findViewById(R.id.logtext);
         passtext = (EditText)findViewById(R.id.passtext);
         logbtn = (Button)findViewById(R.id.logbtn);
-        regbtn = (ImageButton)findViewById(R.id.regbtn);
+        regbtn = (TextView)findViewById(R.id.regbtn);
 
         Firebase.setAndroidContext(MainActivity.this);
         fbdb = new Firebase(Base_url);

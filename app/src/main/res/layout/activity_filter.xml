@@ -9,14 +9,122 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <TextView
-            android:layout_height="50dp"
-            android:layout_width="match_parent"
+            android:id="@+id/cattext"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="11dp"
+            android:text="Select Your Category"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="213dp">
-        </TextView>
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/rmcb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rommance"
+            android:layout_alignBaseline="@+id/fncb"
+            android:layout_alignBottom="@+id/fncb"
+            android:layout_alignLeft="@+id/cattext"
+            android:layout_alignStart="@+id/cattext" />
+
+        <CheckBox
+            android:id="@+id/fncb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/scificb"
+            android:layout_alignStart="@+id/scificb"
+            android:layout_below="@+id/cattext"
+            android:layout_marginTop="16dp"
+            android:text="Fantasy" />
+
+        <CheckBox
+            android:id="@+id/scificb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rmcb"
+            android:layout_alignStart="@+id/rmcb"
+            android:layout_below="@+id/fncb"
+            android:text="Science Fiction" />
+
+        <CheckBox
+            android:id="@+id/biocb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/myscb"
+            android:layout_toEndOf="@+id/scificb"
+            android:layout_toRightOf="@+id/scificb"
+            android:text="Biography" />
+
+        <CheckBox
+            android:id="@+id/actcb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/hrcb"
+            android:layout_alignStart="@+id/hrcb"
+            android:layout_below="@+id/adcb"
+            android:layout_marginTop="19dp"
+            android:text="Action" />
+
+        <CheckBox
+            android:id="@+id/adcb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sprcb"
+            android:layout_toEndOf="@+id/scificb"
+            android:layout_toRightOf="@+id/scificb"
+            android:text="Adventure" />
+
+        <CheckBox
+            android:id="@+id/trcb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/adcb"
+            android:layout_alignStart="@+id/adcb"
+            android:layout_below="@+id/adcb"
+            android:text="Thriller" />
+
+        <CheckBox
+            android:id="@+id/myscb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/rmcb"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/scificb"
+            android:layout_toRightOf="@+id/scificb"
+            android:text="Mystery" />
+
+        <CheckBox
+            android:id="@+id/hrcb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/trcb"
+            android:layout_alignLeft="@+id/scificb"
+            android:layout_alignStart="@+id/scificb"
+            android:layout_marginBottom="10dp"
+            android:text="Horror" />
+
+        <CheckBox
+            android:id="@+id/ptrycb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/hrcb"
+            android:layout_alignStart="@+id/hrcb"
+            android:layout_below="@+id/scificb"
+            android:text="Poetry" />
+
+        <CheckBox
+            android:id="@+id/sprcb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/biocb"
+            android:layout_alignRight="@+id/biocb"
+            android:layout_below="@+id/biocb"
+            android:text="Spiritual" />
     </RelativeLayout>
 
 

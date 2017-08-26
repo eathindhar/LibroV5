@@ -38,7 +38,7 @@
                     android:id="@+id/include"
                     layout="@layout/content_main"
                     android:layout_width="wrap_content"
-                    android:layout_height="350dp"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginBottom="50dp" />
@@ -52,7 +52,7 @@
 
                 <EditText
                     android:id="@+id/bktit_txt"
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
@@ -63,19 +63,19 @@
 
                 <EditText
                     android:id="@+id/isbntxt"
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_below="@+id/bkdec_txt"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginTop="18dp"
                     android:ems="10"
                     android:hint="ISBN Number"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:layout_below="@+id/bkdec_txt"
+                    android:layout_alignLeft="@+id/bkdec_txt"
+                    android:layout_alignStart="@+id/bkdec_txt" />
 
                 <EditText
                     android:id="@+id/ath_txt"
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_alignLeft="@+id/bktit_txt"
                     android:layout_alignStart="@+id/bktit_txt"
@@ -88,31 +88,31 @@
 
                 <EditText
                     android:id="@+id/bkdec_txt"
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="250dp"
                     android:layout_below="@+id/ath_txt"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="55dp"
                     android:ems="10"
-                    android:gravity="center"
+                    android:gravity="top"
                     android:hint="Book Description"
                     android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/prc_txt"
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
                     android:ems="10"
                     android:hint="Price"
                     android:inputType="number"
                     android:layout_below="@+id/isbntxt"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginTop="26dp" />
+                    android:layout_alignLeft="@+id/isbntxt"
+                    android:layout_alignStart="@+id/isbntxt" />
 
                 <Spinner
                     android:id="@+id/boom"
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/ath_txt"
                     android:layout_centerHorizontal="true"

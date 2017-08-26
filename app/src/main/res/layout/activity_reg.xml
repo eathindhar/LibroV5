@@ -4,54 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mahendradevan.eathindhar.librov5.RegActivity">
-
-    <EditText
-        android:id="@+id/name_reg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
-        android:ems="10"
-        android:hint="User Name"
-        android:inputType="textPersonName"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true" />
-
-    <EditText
-        android:id="@+id/email_reg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/name_reg"
-        android:layout_alignStart="@+id/name_reg"
-        android:layout_below="@+id/name_reg"
-        android:layout_marginTop="18dp"
-        android:ems="10"
-        android:hint="Email ID"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/phnum_reg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/email_reg"
-        android:layout_alignRight="@+id/email_reg"
-        android:layout_below="@+id/email_reg"
-        android:layout_marginTop="21dp"
-        android:ems="10"
-        android:hint="Phone Number"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/pass_reg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/phnum_reg"
-        android:layout_alignRight="@+id/phnum_reg"
-        android:layout_below="@+id/phnum_reg"
-        android:layout_marginTop="23dp"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPersonName" />
+    tools:context="com.mahendradevan.eathindhar.librov5.RegActivity"
+    android:background="#ee2222">
 
     <ImageView
         android:id="@+id/imageView"
@@ -66,19 +20,86 @@
         android:id="@+id/register_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/pass_reg"
-        android:layout_alignRight="@+id/pass_reg"
-        android:layout_below="@+id/pass_reg"
-        android:layout_marginTop="22dp"
-        android:text="Register" />
+        android:text="Register"
+        android:background="#b60000"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textInputLayout6"
+        android:layout_alignRight="@+id/textInputLayout6"
+        android:layout_alignEnd="@+id/textInputLayout6"
+        android:layout_marginTop="30dp" />
 
     <Button
         android:id="@+id/signin_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/pass_reg"
-        android:layout_alignStart="@+id/pass_reg"
-        android:layout_alignTop="@+id/register_btn"
-        android:text="Sign In" />
+        android:text="Sign In"
+        android:background="#b60000"
+        android:textColor="#ffffff"
+        android:layout_alignBaseline="@+id/register_btn"
+        android:layout_alignBottom="@+id/register_btn"
+        android:layout_alignLeft="@+id/textInputLayout6"
+        android:layout_alignStart="@+id/textInputLayout6" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/name_reg"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="User Name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textInputLayout3"
+        android:layout_alignLeft="@+id/textInputLayout3"
+        android:layout_alignStart="@+id/textInputLayout3"
+        android:id="@+id/textInputLayout4">
+
+        <EditText
+            android:id="@+id/email_reg"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Email ID" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textInputLayout4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:id="@+id/textInputLayout5">
+
+        <EditText
+            android:id="@+id/phnum_reg"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/textInputLayout5"
+        android:layout_alignLeft="@+id/textInputLayout5"
+        android:layout_alignStart="@+id/textInputLayout5"
+        android:id="@+id/textInputLayout6">
+
+        <EditText
+            android:id="@+id/pass_reg"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Password" />
+    </android.support.design.widget.TextInputLayout>
 
 </RelativeLayout>

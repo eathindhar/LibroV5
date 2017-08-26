@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.eathindhar.libro2.BookDetails">
+    tools:context="com.mahendradevan.eathindhar.librov5.BookDetails">
 
 </android.support.constraint.ConstraintLayout>

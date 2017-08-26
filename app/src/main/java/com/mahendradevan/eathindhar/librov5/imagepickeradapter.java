@@ -2,9 +2,6 @@ package com.mahendradevan.eathindhar.librov5;
 
 import android.net.Uri;
 
-/**
- * Created by Eathindhar on 7/19/2017.
- */
 
 public class imagepickeradapter {
     String name;

@@ -27,7 +27,7 @@ public class PostBook extends AppCompatActivity {
     String gen[]={"Select Genre","Rommance","Science Fiction","Fantasy","Classics","Biography","Action","Adventure","Thriller","Mystery","Horror","Poetry","Spiritual"};
     ArrayList<String> filepath = new ArrayList<String>();
     GridView gv;
-    String Base_url="https://libro2-2cd1d.firebaseio.com/";
+    String Base_url="https://libro-ee6be.firebaseio.com/";
     Firebase fbdb;
     Button pstbtn, btn;
     String bktit,bkdesc, spinItem, authname, price, Name,isbntxt;

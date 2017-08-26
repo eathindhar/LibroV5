@@ -1,8 +1,6 @@
 package com.mahendradevan.eathindhar.librov5;
 
-/**
- * Created by Eathindhar on 7/18/2017.
- */
+
 
 public class RegCreds {
     RegCreds(){

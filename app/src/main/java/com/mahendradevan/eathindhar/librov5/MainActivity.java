@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     String uname, pass;
     Button logbtn;
     ImageButton regbtn;
-    String Base_url="https://libro2-2cd1d.firebaseio.com/";
+    String Base_url="https://libro-ee6be.firebaseio.com/";
     Firebase fbdb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,8 +1,5 @@
 package com.mahendradevan.eathindhar.librov5;
 
-/**
- * Created by Eathindhar on 7/19/2017.
- */
 
 public class PostBookCreds {
     public void PostBookCreds(){

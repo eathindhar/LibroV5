@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.example.eathindhar.libro2.Store_frag">
+    tools:context="com.mahendradevan.eathindhar.librov5.Store_frag">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

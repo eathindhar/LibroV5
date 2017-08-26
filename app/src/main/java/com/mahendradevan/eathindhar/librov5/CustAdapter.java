@@ -13,10 +13,6 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-/**
- * Created by Eathindhar on 7/19/2017.
- */
-
 public class CustAdapter extends BaseAdapter {
     Context c;
     ArrayList<imagepickeradapter> imgpkr;

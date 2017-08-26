@@ -16,7 +16,7 @@ public class RegActivity extends AppCompatActivity {
     Button registerButton;
     EditText reg_name, reg_mail, reg_phno, reg_pass;
     String name, mail, phno, pass;
-    String Base_url="https://libro2-2cd1d.firebaseio.com/";
+    String Base_url="https://libro-ee6be.firebaseio.com/";
     Firebase fbdb;
 
     @Override

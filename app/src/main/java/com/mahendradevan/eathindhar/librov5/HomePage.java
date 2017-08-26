@@ -21,8 +21,8 @@ public class HomePage extends AppCompatActivity {
     private TabLayout tabLayout;
     private ViewPager viewPager;
     private int[] tabIcons = {
-            R.drawable.home,
-            R.drawable.normalbook,
+            R.drawable.bookstore,
+            R.drawable.bookk,
     };
 
     @Override

@@ -6,45 +6,38 @@
     tools:context="com.mahendradevan.eathindhar.librov5.Writer_lounge">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
 
     <LinearLayout
         android:id="@+id/bottompane"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
+        android:layout_weight="0"
+        android:background="#125688"
+        android:orientation="horizontal"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_weight="0"
-        android:orientation="horizontal"
-        android:background="#125688">
+        android:layout_alignParentStart="true">
 
         <ImageView
-            android:id="@+id/hme_img"
+            android:id="@+id/fav_img"
             android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_height="30dp"
             android:layout_gravity="center"
             android:layout_weight="1"
-            app:srcCompat="@drawable/cartt" />
+            app:srcCompat="@drawable/star" />
 
         <ImageView
-            android:id="@+id/post_img"
+            android:id="@+id/postart_img"
             android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_height="30dp"
             android:layout_gravity="center"
             android:layout_weight="1"
-            app:srcCompat="@drawable/add_a_book" />
+            app:srcCompat="@drawable/write_article" />
 
         <ImageView
-            android:id="@+id/acc_img"
+            android:id="@+id/filter_img"
             android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_height="30dp"
             android:layout_gravity="center"
             android:layout_weight="1"
             app:srcCompat="@drawable/filter" />

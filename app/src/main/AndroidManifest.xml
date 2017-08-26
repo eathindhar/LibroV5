@@ -28,6 +28,10 @@
         <activity android:name=".UserAccount" />
         <activity android:name=".BookDetails" />
         <activity android:name=".RegActivity" />
+        <activity android:name=".Filter" />
+        <activity android:name=".Cart" />
+        <activity android:name=".Favourites" />
+        <activity android:name=".PostArticle"></activity>
     </application>
 
 </manifest>

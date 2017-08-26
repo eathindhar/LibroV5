@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "645032785309",
+    "firebase_url": "https://libro-ee6be.firebaseio.com",
+    "project_id": "libro-ee6be",
+    "storage_bucket": "libro-ee6be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645032785309:android:75fc0202a6df6d2d",
+        "android_client_info": {
+          "package_name": "com.mahendradevan.eathindhar.librov5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645032785309-4cadl5m1s30nt9dbju46mc9451a70dr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8UCqZFOtkXkFO8piP34oNwEJayMVq3CQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

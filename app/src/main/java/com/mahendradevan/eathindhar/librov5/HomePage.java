@@ -42,6 +42,7 @@ public class HomePage extends AppCompatActivity {
 
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
+        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         setupTabIcons();
 
     }
@@ -88,6 +89,7 @@ public class HomePage extends AppCompatActivity {
             return null;
         }
     }
+
 
 }
 

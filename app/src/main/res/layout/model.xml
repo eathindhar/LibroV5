@@ -1,28 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal" android:layout_width="match_parent"
-    android:layout_height="200dp"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:layout_margin="10dp"
+    android:orientation="horizontal"
     card_view:cardCornerRadius="5dp"
     card_view:cardElevation="5dp">
 
-
-    <LinearLayout
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="0dp">
 
-        <ImageView
-            android:id="@+id/img"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            card_view:srcCompat="@drawable/ic_camera" />
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/nametxt"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="TextView" />
-    </LinearLayout>
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/bktit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/thumbnail"
+                android:layout_toRightOf="@+id/thumbnail"
+                android:text="Book Title" />
+
+            <TextView
+                android:id="@+id/bkauth"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/bktit"
+                android:layout_toEndOf="@+id/thumbnail"
+                android:layout_toRightOf="@+id/thumbnail"
+                android:text="Book Author" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_below="@+id/bkauth"
+                android:layout_toEndOf="@+id/thumbnail"
+                android:layout_toRightOf="@+id/thumbnail"
+                android:text="Book Description" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
 </android.support.v7.widget.CardView>

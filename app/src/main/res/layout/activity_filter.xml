@@ -14,9 +14,9 @@
             android:id="@+id/cattext"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:layout_marginLeft="37dp"
-            android:layout_marginStart="37dp"
-            android:layout_marginTop="11dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="36dp"
             android:text="Select Your Category"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
@@ -26,21 +26,19 @@
             android:id="@+id/rmcb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rommance"
-            android:layout_alignBaseline="@+id/fncb"
-            android:layout_alignBottom="@+id/fncb"
-            android:layout_alignLeft="@+id/cattext"
-            android:layout_alignStart="@+id/cattext" />
+            android:layout_alignLeft="@+id/fncb"
+            android:layout_alignStart="@+id/fncb"
+            android:layout_below="@+id/actcb"
+            android:text="Rommance" />
 
         <CheckBox
             android:id="@+id/fncb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/scificb"
-            android:layout_alignStart="@+id/scificb"
+            android:text="Fantasy"
             android:layout_below="@+id/cattext"
-            android:layout_marginTop="16dp"
-            android:text="Fantasy" />
+            android:layout_alignLeft="@+id/cattext"
+            android:layout_alignStart="@+id/cattext" />
 
         <CheckBox
             android:id="@+id/scificb"
@@ -56,6 +54,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/myscb"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
             android:layout_toEndOf="@+id/scificb"
             android:layout_toRightOf="@+id/scificb"
             android:text="Biography" />
@@ -64,19 +64,18 @@
             android:id="@+id/actcb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/hrcb"
-            android:layout_alignStart="@+id/hrcb"
-            android:layout_below="@+id/adcb"
-            android:layout_marginTop="19dp"
-            android:text="Action" />
+            android:text="Action"
+            android:layout_below="@+id/ptrycb"
+            android:layout_alignLeft="@+id/ptrycb"
+            android:layout_alignStart="@+id/ptrycb" />
 
         <CheckBox
             android:id="@+id/adcb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sprcb"
+            android:layout_alignStart="@+id/sprcb"
             android:layout_below="@+id/sprcb"
-            android:layout_toEndOf="@+id/scificb"
-            android:layout_toRightOf="@+id/scificb"
             android:text="Adventure" />
 
         <CheckBox
@@ -92,20 +91,18 @@
             android:id="@+id/myscb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/rmcb"
-            android:layout_marginTop="10dp"
-            android:layout_toEndOf="@+id/scificb"
-            android:layout_toRightOf="@+id/scificb"
+            android:layout_above="@+id/scificb"
+            android:layout_alignLeft="@+id/biocb"
+            android:layout_alignStart="@+id/biocb"
             android:text="Mystery" />
 
         <CheckBox
             android:id="@+id/hrcb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/trcb"
-            android:layout_alignLeft="@+id/scificb"
-            android:layout_alignStart="@+id/scificb"
-            android:layout_marginBottom="10dp"
+            android:layout_alignLeft="@+id/rmcb"
+            android:layout_alignStart="@+id/rmcb"
+            android:layout_below="@+id/rmcb"
             android:text="Horror" />
 
         <CheckBox
@@ -121,10 +118,28 @@
             android:id="@+id/sprcb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/biocb"
-            android:layout_alignRight="@+id/biocb"
+            android:layout_alignLeft="@+id/biocb"
+            android:layout_alignStart="@+id/biocb"
             android:layout_below="@+id/biocb"
             android:text="Spiritual" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/trcb"
+            android:layout_alignStart="@+id/trcb"
+            android:layout_below="@+id/trcb"
+            android:text="Classics" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hrcb"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="52dp"
+            android:text="Apply Filter" />
     </RelativeLayout>
 
 
